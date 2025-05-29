@@ -1,1 +1,1 @@
-# guava jre
+# guava jre + android
