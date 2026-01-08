@@ -31,7 +31,8 @@ shadowJar {
     exclude '**/*maven/'
          
     archiveFileName.set("${project.rootProject.name}.jar")       
-              
+    archiveClassifier.set("") 
+    
     dependencies {
         exclude(dependency('com.google.guava:failureaccess:1.0.3'))
         exclude(dependency('com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'))
